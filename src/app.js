@@ -12,5 +12,5 @@ export default function initApp() {
   button.addEventListener('click', (event) => {
     const randomColor = getRandomColor();
     document.body.style.backgroundColor = randomColor;
-    });
+  });
 }
